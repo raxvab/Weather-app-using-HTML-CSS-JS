@@ -14,7 +14,6 @@ A simple weather application that allows users to check the current weather cond
 
 ## Demo
 
-https://sharada-marasinha.github.io/Weather_App/
 
 ![Weather App Screenshot](screenshots/screenshot.png)
 
