@@ -4,7 +4,7 @@ A simple weather application that allows users to check the current weather cond
 
 ## Table of Contents
 
-- [Demo]
+- [Demo](#Demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
@@ -13,7 +13,7 @@ A simple weather application that allows users to check the current weather cond
 - [License](#license)
 
 ## Demo
-
+https://weather-app-alpha-beige-62.vercel.app/
 
 ![Weather App Screenshot](screenshots/screenshot.png)
 
