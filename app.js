@@ -10,7 +10,7 @@ let humidity = $(".humidity");
 let tz_id = $(".tz_id");
 let wind_kph = $(".wind_kph");
 let img = document.getElementById("weatherIcon");
-const apiKey = "4a758dd1aed04dc3950175920231609";
+const apiKey = "98f80605533f480eaa8124743252601";
 
 var map = L.map('map').setView([0, 0], 13);
 
@@ -143,7 +143,7 @@ function getWeatherTimeLine(startDate, endDate) {
   const dateIds = ["date1", "date2", "date3", "date4", "date5", "date6", "date7"];
   $.ajax({
     method: "GET",
-    url: `https://api.weatherapi.com/v1/history.json?key=${apiKey}&q=${"Panadura"}&dt=${startDate}&end_dt=${endDate}`,
+    url: `https://api.weatherapi.com/v1/history.json?key=${apiKey}&q=${"Pune"}&dt=${startDate}&end_dt=${endDate}`,
     success: (resp) => {
       for (let i = 0; i < 7; i++) {
         const forecastDay = resp['forecast']['forecastday'][i]['day'];
