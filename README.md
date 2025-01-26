@@ -4,7 +4,7 @@ A simple weather application that allows users to check the current weather cond
 
 ## Table of Contents
 
-- [Demo](#demo)
+- [Demo]
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
